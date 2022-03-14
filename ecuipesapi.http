@@ -2,15 +2,18 @@ POST http://localhost:1337/orders
 Content-Type: application/json
 
 {
-    "_id": "Order-3",
-    "product": "necklace",
-    "title": "cuban necklace",
-    "specs": false
+    "_id": "Order-4",
+    "product": "cap",
+    "title": "red corduroy cap",
+    "specs": true
 }
 
-### Getting the orders
+### Getting all orders
 GET http://localhost:1337/orders
 
 
 ### Get a specific order
-GET http://localhost:1337/orders?id=Order-2
+GET http://localhost:1337/orders/Order-2
+
+### Delete an order
+DELETE http://localhost:1337/orders/Order-3
