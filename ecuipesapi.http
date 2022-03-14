@@ -1,0 +1,16 @@
+POST http://localhost:1337/orders
+Content-Type: application/json
+
+{
+    "_id": "Order-3",
+    "product": "necklace",
+    "title": "cuban necklace",
+    "specs": false
+}
+
+### Getting the orders
+GET http://localhost:1337/orders
+
+
+### Get a specific order
+GET http://localhost:1337/orders?id=Order-2
