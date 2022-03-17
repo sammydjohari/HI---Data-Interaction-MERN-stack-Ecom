@@ -1,0 +1,42 @@
+nav {
+width: 100vw;
+height: 20vh;
+margin-top: 10px;
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+font-family: Arial, Helvetica, sans-serif;
+}
+
+nav img {
+    margin-left: 30px;
+    cursor: pointer;
+}
+
+#menuitems {
+    width: 40%;
+    height: 80%;
+    display: flex;
+    align-items: flex-start;
+    align-self: center; 
+    font-size:x-large;
+    justify-content: space-between;
+    color: black;
+}
+
+#menuitems a {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+    letter-spacing: 0.05em;
+}
+  
+#menuicons {
+    width: 10%;
+    height: 80%;
+    display: flex;
+    align-self: center;
+    justify-content: space-around;
+    align-items: flex-start;
+    margin-right: 30px;
+}
