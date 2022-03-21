@@ -1,0 +1,13 @@
+#aboutbannerContainer {
+    width: 100vw;
+    height: 80vh;
+    overflow-y: auto;
+    overflow-x: hidden;
+    transform: rotate(-90deg);
+}
+
+#aboutbannerContainer > img {
+    width: 1100px;
+    height: 780px;
+    transform: rotate(90deg);
+}

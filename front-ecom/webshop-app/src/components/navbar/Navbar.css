@@ -11,32 +11,38 @@ font-family: Arial, Helvetica, sans-serif;
 nav img {
     margin-left: 30px;
     cursor: pointer;
+    height: 70%;
 }
 
 #menuitems {
     width: 40%;
-    height: 80%;
+    height: 50%;
     display: flex;
-    align-items: flex-start;
-    align-self: center; 
-    font-size:x-large;
     justify-content: space-between;
-    color: black;
+    cursor: pointer;
+    align-self: center; 
 }
 
 #menuitems a {
-    color: black;
     text-decoration: none;
-    cursor: pointer;
+    color: black;
+    font-size:x-large;
     letter-spacing: 0.05em;
 }
   
-#menuicons {
-    width: 10%;
-    height: 80%;
+#menuicons ul {
+    width: 40%;
+    height: 70%;
+    list-style: none;
+    cursor: pointer;
+    letter-spacing: 0.05em;
     display: flex;
-    align-self: center;
-    justify-content: space-around;
-    align-items: flex-start;
+    flex-direction: row;
+    font-size:x-large;
+    margin-right: 30px;
+    align-items: center;
+}
+
+#menuicons li {
     margin-right: 30px;
 }

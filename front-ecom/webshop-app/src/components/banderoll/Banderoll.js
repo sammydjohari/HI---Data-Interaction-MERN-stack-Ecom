@@ -3,41 +3,10 @@ import './Banderoll.css'
 const Banderoll = () => {
   return (
     <div id="banderollID">
-    {/* <marquee> */}
-    <h4>ecuipes</h4>
-    <h4>ecuipes</h4>
-    <h4>ecuipes</h4>
-    <h4>ecuipes</h4>
-    <h4>ecuipes</h4>
-    <h4>ecuipes</h4>
-    <h4>ecuipes</h4>
-    <h4>ecuipes</h4>
-    <h4>ecuipes</h4>
-    <h4>ecuipes</h4>
-    <h4>ecuipes</h4>
-    <h4>ecuipes</h4>
-    <h4>ecuipes</h4>
-    <h4>ecuipes</h4>
-    <h4>ecuipes</h4>
-    <h4>ecuipes</h4>
-    <h4>ecuipes</h4>
-    <h4>ecuipes</h4>
-    <h4>ecuipes</h4>
-    <h4>ecuipes</h4>
-    <h4>ecuipes</h4>
-    <h4>ecuipes</h4>
-    <h4>ecuipes</h4>
-    <h4>ecuipes</h4>
-    <h4>ecuipes</h4>
-    <h4>ecuipes</h4>
-    <h4>ecuipes</h4>
-    <h4>ecuipes</h4>
-    <h4>ecuipes</h4>
-    <h4>ecuipes</h4>
-    <h4>ecuipes</h4>
-    {/* </marquee> */}
+    <h4>ecuipes ecuipes ecuipes ecuipes ecuipes ecuipes ecuipes ecuipes ecuipes ecuipes ecuipes ecuipes ecuipes ecuipes ecuipes ecuipes ecuipes ecuipes ecuipes ecuipes ecuipes ecuipes ecuipes ecuipes ecuipes ecuipes ecuipes ecuipes ecuipes ecuipes ecuipes ecuipes ecuipes ecuipes</h4>
     </div>
+    
   )
 }
 
-export default Banderoll
+export default Banderoll;
