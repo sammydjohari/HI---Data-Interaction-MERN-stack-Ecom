@@ -1,14 +1,10 @@
 import React from 'react';
-import ItemCard from '../components/itemCard/ItemCard'
+import ShowItems from '../components/showItems/ShowItems';
 
 function Shop() {
   return (
     <div>
-      <ItemCard />
-      <ItemCard />
-      <ItemCard />
-      <ItemCard />
-      <ItemCard />
+      <ShowItems />
     </div>
   )
 }

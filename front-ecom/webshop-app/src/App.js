@@ -34,8 +34,8 @@ function App() {
         <Banderoll />
         <Navbar />
         <Routes>
-          <Route path="/" element={<Home jewels={jewels} />} />
-          <Route path="/shop" element={<Shop />} />
+          <Route path="/" element={<Home />} />
+          <Route path="/shop" element={<Shop jewels={jewels} />} />
           <Route path="/about" element={<About />} />
           <Route path="*" element={<ErrorPage />} />
         </Routes>
