@@ -1,9 +1,14 @@
 import React from 'react';
+import ItemCard from '../components/itemCard/ItemCard'
 
 function Shop() {
   return (
     <div>
-    <h1>SHOP PAGE</h1>
+      <ItemCard />
+      <ItemCard />
+      <ItemCard />
+      <ItemCard />
+      <ItemCard />
     </div>
   )
 }

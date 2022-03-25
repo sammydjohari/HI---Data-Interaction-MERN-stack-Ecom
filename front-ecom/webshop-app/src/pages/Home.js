@@ -1,7 +1,7 @@
 import React from 'react';
 import Banner from '../components/banner/Banner';
 
-function Main() {
+function Home() {
   return (
       <div>
         <Banner />
@@ -9,4 +9,4 @@ function Main() {
   )
 }
 
-export default Main;
+export default Home;

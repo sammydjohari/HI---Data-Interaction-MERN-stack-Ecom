@@ -10,6 +10,7 @@ font-family: Arial, Helvetica, sans-serif;
 
 nav img {
     margin-left: 30px;
+    margin-top: 20px;
     cursor: pointer;
     height: 70%;
 }
@@ -19,7 +20,6 @@ nav img {
     height: 50%;
     display: flex;
     justify-content: space-between;
-    cursor: pointer;
     align-self: center; 
 }
 
@@ -28,13 +28,13 @@ nav img {
     color: black;
     font-size:x-large;
     letter-spacing: 0.05em;
+    cursor: pointer;
 }
   
 #menuicons ul {
     width: 40%;
     height: 70%;
     list-style: none;
-    cursor: pointer;
     letter-spacing: 0.05em;
     display: flex;
     flex-direction: row;
@@ -45,4 +45,5 @@ nav img {
 
 #menuicons li {
     margin-right: 30px;
+    cursor: pointer;
 }
