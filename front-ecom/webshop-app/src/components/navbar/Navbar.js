@@ -17,10 +17,8 @@ const Navbar = () => {
         <Link to="/about">ABOUT</Link>
       </div>
       <div id="menuicons">
-        <ul>
-          <li><BiShoppingBag size={32}/></li>
-          <li><FaRegUserCircle size={30}/></li>
-        </ul>
+      <Link to="/checkout"><BiShoppingBag size={32}/></Link>
+      <Link to="/staff"><FaRegUserCircle size={30}/></Link>
       </div>
     </nav>
   )

@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import axios from "axios";
-import { Link } from "react-router-dom";
 import ItemCard from "../itemCard/ItemCard";
+import './ShowItems.css';
 
 function ShowItems(props) {
   const [jewels, setJewels] = useState([]);
@@ -21,11 +21,9 @@ function ShowItems(props) {
   const itemList = jewels.map((item) => <ItemCard item={item} key={item._id} />);
 
   return (
-    <div className="ShowItems">
-      <div className="container">
-          <ul className="list"><li>{itemList}</li></ul>
-      </div>
-    </div>
+  <ul className="itemList">
+    {itemList}
+  </ul>
   );
 }
 

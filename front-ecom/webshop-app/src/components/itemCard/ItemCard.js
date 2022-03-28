@@ -1,9 +1,20 @@
 import React from "react";
-import { Link } from "react-router-dom";
 import './ItemCard.css';
 
 const ItemCard = (props) => {
     const item = props.item;
+
+    let cart = [];
+    let order = [];
+
+    function addtocart() {
+        console.log("added to cart");
+
+    }
+
+    function buynow() {
+        console.log("go to checkout and buy now");
+    }
 
   return (
     <div className="card-container">
@@ -11,6 +22,10 @@ const ItemCard = (props) => {
         <div className="desc">
             <h3>{ item.title }</h3>
             <p>{item.price}€</p>
+            <div id="shopbuttons">
+            <button onClick={addtocart}>Add to cart</button>
+            <button onClick={buynow}>Buy now</button>
+            </div>
         </div>
     </div>
   )

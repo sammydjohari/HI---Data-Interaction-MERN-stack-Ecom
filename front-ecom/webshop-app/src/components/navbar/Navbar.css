@@ -31,19 +31,16 @@ nav img {
     cursor: pointer;
 }
   
-#menuicons ul {
-    width: 40%;
-    height: 70%;
-    list-style: none;
-    letter-spacing: 0.05em;
+#menuicons {
     display: flex;
     flex-direction: row;
     font-size:x-large;
-    margin-right: 30px;
-    align-items: center;
+    align-self: center;
+    margin-bottom: 55px;
 }
 
-#menuicons li {
+#menuicons a {
     margin-right: 30px;
+    color: black;
     cursor: pointer;
 }

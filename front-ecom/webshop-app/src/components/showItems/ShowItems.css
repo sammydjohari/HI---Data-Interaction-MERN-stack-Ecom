@@ -1,9 +1,11 @@
-.container {
-    display: flex;
-    flex-direction: column;
+body {
+    overflow-x: hidden;
 }
 
-ul {
+.itemList {
     display: flex;
     flex-direction: row;
+    width: 100%;
+    justify-content: space-around;
+    flex-wrap: wrap;
 }
