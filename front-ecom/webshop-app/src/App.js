@@ -30,6 +30,21 @@ function App() {
     });
   }, []);
 
+  const [cart, setCart] = useState([]);
+  const [order, setOrder] = useState([]);
+
+  function onCart(jewels) {
+
+  }
+
+  function onBuy(jewels) {
+
+  } 
+
+  function onCheckout(jewels) {
+
+  }
+
   return (
     <Router>
       <div className='App'>
@@ -37,9 +52,9 @@ function App() {
         <Navbar />
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/shop" element={<Shop jewels={jewels} />} />
+          <Route path="/shop" element={<Shop jewels={jewels} cart={cart} setCart={setCart} />} />
           <Route path="/about" element={<About />} />
-          <Route path="/checkout" element={<Checkout />} />
+          <Route path="/checkout" element={<Checkout cart={cart} />} />
           <Route path="/staff" element={<Staff />} />
           <Route path="*" element={<ErrorPage />} />
         </Routes>
